@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/fede/Escritorio/Alhambra Makers/Kicad/Test KiCad/Test.sch</source>
+    <date>mié 08 nov 2017 10:59:50 CET</date>
+    <tool>Eeschema 4.0.2+dfsg1-stable</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>LEDs Strip</title>
+        <company>abierto.cc</company>
+        <rev/>
+        <date/>
+        <source>Test.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="D3">
+      <value>LED</value>
+      <footprint>LEDs:LED-5MM</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59AFBE00</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>LED</value>
+      <footprint>LEDs:LED-5MM</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59AFBE48</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>LED</value>
+      <footprint>LEDs:LED-5MM</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59AFBF40</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>LED</value>
+      <footprint>LEDs:LED-5MM</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59AFBF6F</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>LED</value>
+      <footprint>LEDs:LED-5MM</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59AFBF9D</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>LED</value>
+      <footprint>LEDs:LED-5MM</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59AFBFC6</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>LED</value>
+      <footprint>LEDs:LED-5MM</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59AFC018</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>LED</value>
+      <footprint>LEDs:LED-5MM</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59AFC053</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>CONN_01X09</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x09</footprint>
+      <libsource lib="conn" part="CONN_01X09"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59AFC07D</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>ResistorArray</value>
+      <footprint>Componentes:ResistorArray</footprint>
+      <libsource lib="resistorarray" part="ResistorArray"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59AFC1DB</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>ResistorArray</value>
+      <footprint>Componentes:ResistorArray</footprint>
+      <libsource lib="resistorarray" part="ResistorArray"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59AFC3AD</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="conn" part="CONN_01X09">
+      <description>Connector 01x09</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X09</fp>
+        <fp>Pin_Header_Angled_1X09</fp>
+        <fp>Socket_Strip_Straight_1X09</fp>
+        <fp>Socket_Strip_Angled_1X09</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X09</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+        <pin num="9" name="P9" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="LED">
+      <footprints>
+        <fp>LED-3MM</fp>
+        <fp>LED-5MM</fp>
+        <fp>LED-10MM</fp>
+        <fp>LED-0603</fp>
+        <fp>LED-0805</fp>
+        <fp>LED-1206</fp>
+        <fp>LEDV</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="resistorarray" part="ResistorArray">
+      <description>Red de resistencias con un terminal común</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ResistorArray</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="input"/>
+        <pin num="2" name="R1" type="input"/>
+        <pin num="3" name="R2" type="input"/>
+        <pin num="4" name="R3" type="input"/>
+        <pin num="5" name="R4" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="device">
+      <uri>/usr/share/kicad/library/device.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>/usr/share/kicad/library/conn.lib</uri>
+    </library>
+    <library logical="resistorarray">
+      <uri>/home/fede/Escritorio/Alhambra Makers/Kicad/Test KiCad/Componentes/resistorarray.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(D6-Pad2)">
+      <node ref="P1" pin="4"/>
+      <node ref="D6" pin="2"/>
+    </net>
+    <net code="2" name="Net-(D5-Pad2)">
+      <node ref="D5" pin="2"/>
+      <node ref="P1" pin="5"/>
+    </net>
+    <net code="3" name="Net-(D4-Pad2)">
+      <node ref="D4" pin="2"/>
+      <node ref="P1" pin="6"/>
+    </net>
+    <net code="4" name="Net-(D3-Pad2)">
+      <node ref="D3" pin="2"/>
+      <node ref="P1" pin="7"/>
+    </net>
+    <net code="5" name="Net-(D2-Pad2)">
+      <node ref="P1" pin="8"/>
+      <node ref="D2" pin="2"/>
+    </net>
+    <net code="6" name="Net-(D1-Pad2)">
+      <node ref="P1" pin="9"/>
+      <node ref="D1" pin="2"/>
+    </net>
+    <net code="7" name="Net-(D8-Pad1)">
+      <node ref="U2" pin="2"/>
+      <node ref="D8" pin="1"/>
+    </net>
+    <net code="8" name="Net-(D7-Pad1)">
+      <node ref="U2" pin="3"/>
+      <node ref="D7" pin="1"/>
+    </net>
+    <net code="9" name="Net-(D6-Pad1)">
+      <node ref="D6" pin="1"/>
+      <node ref="U2" pin="4"/>
+    </net>
+    <net code="10" name="GND">
+      <node ref="P1" pin="1"/>
+      <node ref="U2" pin="1"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="11" name="Net-(D8-Pad2)">
+      <node ref="D8" pin="2"/>
+      <node ref="P1" pin="2"/>
+    </net>
+    <net code="12" name="Net-(D7-Pad2)">
+      <node ref="D7" pin="2"/>
+      <node ref="P1" pin="3"/>
+    </net>
+    <net code="13" name="Net-(D5-Pad1)">
+      <node ref="D5" pin="1"/>
+      <node ref="U2" pin="5"/>
+    </net>
+    <net code="14" name="Net-(D1-Pad1)">
+      <node ref="U1" pin="2"/>
+      <node ref="D1" pin="1"/>
+    </net>
+    <net code="15" name="Net-(D2-Pad1)">
+      <node ref="U1" pin="3"/>
+      <node ref="D2" pin="1"/>
+    </net>
+    <net code="16" name="Net-(D4-Pad1)">
+      <node ref="U1" pin="5"/>
+      <node ref="D4" pin="1"/>
+    </net>
+    <net code="17" name="Net-(D3-Pad1)">
+      <node ref="D3" pin="1"/>
+      <node ref="U1" pin="4"/>
+    </net>
+  </nets>
+</export>

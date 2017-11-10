@@ -1,0 +1,12 @@
+Reference, Value, Footprint, Datasheet
+D3,LED,LEDs:LED-5MM,
+D4,LED,LEDs:LED-5MM,
+D2,LED,LEDs:LED-5MM,
+D1,LED,LEDs:LED-5MM,
+D5,LED,LEDs:LED-5MM,
+D6,LED,LEDs:LED-5MM,
+D7,LED,LEDs:LED-5MM,
+D8,LED,LEDs:LED-5MM,
+P1,CONN_01X09,Pin_Headers:Pin_Header_Straight_1x09,
+U1,ResistorArray,Componentes:ResistorArray,
+U2,ResistorArray,Componentes:ResistorArray,

@@ -1,0 +1,21 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# ResistorArray
+#
+DEF ResistorArray U 0 40 Y Y 1 F N
+F0 "U" 300 350 60 H V C CNN
+F1 "ResistorArray" 450 50 60 V V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+P 6 0 1 0  200 300  350 300  400 200  400 -250  200 -250  200 300 N
+X GND 1 0 200 200 R 50 50 1 1 I
+X R1 2 0 100 200 R 50 50 1 1 I
+X R2 3 0 0 200 R 50 50 1 1 I
+X R3 4 0 -100 200 R 50 50 1 1 I
+X R4 5 0 -200 200 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library

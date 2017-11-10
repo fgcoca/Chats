@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ResistorArray
+D Red de resistencias con un terminal común
+K Resistor
+$ENDCMP
+#
+#End Doc Library

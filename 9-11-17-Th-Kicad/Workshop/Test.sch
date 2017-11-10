@@ -1,0 +1,297 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:resistorarray
+LIBS:Test-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "LEDs Strip"
+Date ""
+Rev ""
+Comp "abierto.cc"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L LED D3
+U 1 1 59AFBE00
+P 5900 2700
+F 0 "D3" H 5900 2800 50  0000 C CNN
+F 1 "LED" H 5900 2600 50  0000 C CNN
+F 2 "LEDs:LED-5MM" H 5900 2700 50  0001 C CNN
+F 3 "" H 5900 2700 50  0000 C CNN
+	1    5900 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D4
+U 1 1 59AFBE48
+P 6250 2700
+F 0 "D4" H 6250 2800 50  0000 C CNN
+F 1 "LED" H 6250 2600 50  0000 C CNN
+F 2 "LEDs:LED-5MM" H 6250 2700 50  0001 C CNN
+F 3 "" H 6250 2700 50  0000 C CNN
+	1    6250 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D2
+U 1 1 59AFBF40
+P 5550 2700
+F 0 "D2" H 5550 2800 50  0000 C CNN
+F 1 "LED" H 5550 2600 50  0000 C CNN
+F 2 "LEDs:LED-5MM" H 5550 2700 50  0001 C CNN
+F 3 "" H 5550 2700 50  0000 C CNN
+	1    5550 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D1
+U 1 1 59AFBF6F
+P 5200 2700
+F 0 "D1" H 5200 2800 50  0000 C CNN
+F 1 "LED" H 5200 2600 50  0000 C CNN
+F 2 "LEDs:LED-5MM" H 5200 2700 50  0001 C CNN
+F 3 "" H 5200 2700 50  0000 C CNN
+	1    5200 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D5
+U 1 1 59AFBF9D
+P 6550 2700
+F 0 "D5" H 6550 2800 50  0000 C CNN
+F 1 "LED" H 6550 2600 50  0000 C CNN
+F 2 "LEDs:LED-5MM" H 6550 2700 50  0001 C CNN
+F 3 "" H 6550 2700 50  0000 C CNN
+	1    6550 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D6
+U 1 1 59AFBFC6
+P 6850 2700
+F 0 "D6" H 6850 2800 50  0000 C CNN
+F 1 "LED" H 6850 2600 50  0000 C CNN
+F 2 "LEDs:LED-5MM" H 6850 2700 50  0001 C CNN
+F 3 "" H 6850 2700 50  0000 C CNN
+	1    6850 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D7
+U 1 1 59AFC018
+P 7150 2700
+F 0 "D7" H 7150 2800 50  0000 C CNN
+F 1 "LED" H 7150 2600 50  0000 C CNN
+F 2 "LEDs:LED-5MM" H 7150 2700 50  0001 C CNN
+F 3 "" H 7150 2700 50  0000 C CNN
+	1    7150 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D8
+U 1 1 59AFC053
+P 7450 2700
+F 0 "D8" H 7450 2800 50  0000 C CNN
+F 1 "LED" H 7450 2600 50  0000 C CNN
+F 2 "LEDs:LED-5MM" H 7450 2700 50  0001 C CNN
+F 3 "" H 7450 2700 50  0000 C CNN
+	1    7450 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L CONN_01X09 P1
+U 1 1 59AFC07D
+P 6300 3500
+F 0 "P1" H 6300 4000 50  0000 C CNN
+F 1 "CONN_01X09" V 6400 3500 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x09" H 6300 3500 50  0001 C CNN
+F 3 "" H 6300 3500 50  0000 C CNN
+	1    6300 3500
+	0    1    1    0   
+$EndComp
+$Comp
+L ResistorArray U1
+U 1 1 59AFC1DB
+P 5800 2000
+F 0 "U1" H 6100 2350 60  0000 C CNN
+F 1 "ResistorArray" V 6300 2050 60  0000 C CNN
+F 2 "Componentes:ResistorArray" H 5800 2000 60  0001 C CNN
+F 3 "" H 5800 2000 60  0000 C CNN
+	1    5800 2000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L ResistorArray U2
+U 1 1 59AFC3AD
+P 6800 2000
+F 0 "U2" H 7100 2350 60  0000 C CNN
+F 1 "ResistorArray" V 7300 2050 60  0000 C CNN
+F 2 "Componentes:ResistorArray" H 6800 2000 60  0001 C CNN
+F 3 "" H 6800 2000 60  0000 C CNN
+	1    6800 2000
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	5200 2200 5700 2200
+Wire Wire Line
+	5200 2200 5200 2500
+Wire Wire Line
+	5550 2500 5550 2300
+Wire Wire Line
+	5900 2000 5900 2500
+Wire Wire Line
+	6000 2200 6250 2200
+Wire Wire Line
+	6250 2200 6250 2500
+Wire Wire Line
+	6600 2000 6600 2200
+Wire Wire Line
+	6600 2200 6550 2200
+Wire Wire Line
+	6550 2200 6550 2500
+Wire Wire Line
+	6700 2000 6700 2450
+Wire Wire Line
+	6700 2450 6850 2450
+Wire Wire Line
+	6850 2450 6850 2500
+Wire Wire Line
+	6800 2000 6800 2350
+Wire Wire Line
+	6800 2350 7150 2350
+Wire Wire Line
+	7150 2350 7150 2500
+Wire Wire Line
+	6900 2000 6900 2200
+Wire Wire Line
+	6900 2200 7450 2200
+Wire Wire Line
+	7450 2200 7450 2500
+Wire Wire Line
+	5200 2900 5200 3300
+Wire Wire Line
+	5200 3300 5900 3300
+Wire Wire Line
+	5550 2900 5550 3200
+Wire Wire Line
+	5550 3200 6000 3200
+Wire Wire Line
+	6000 3200 6000 3300
+Wire Wire Line
+	5900 2900 5900 3100
+Wire Wire Line
+	5900 3100 6100 3100
+Wire Wire Line
+	6100 3100 6100 3300
+Wire Wire Line
+	6250 2900 6250 3100
+Wire Wire Line
+	6250 3100 6200 3100
+Wire Wire Line
+	6200 3100 6200 3300
+Wire Wire Line
+	6300 3300 6300 2900
+Wire Wire Line
+	6300 2900 6550 2900
+Wire Wire Line
+	6400 3300 6400 3000
+Wire Wire Line
+	6400 3000 6850 3000
+Wire Wire Line
+	6850 3000 6850 2900
+Wire Wire Line
+	6500 3300 6500 3100
+Wire Wire Line
+	6500 3100 7150 3100
+Wire Wire Line
+	7150 3100 7150 2900
+Wire Wire Line
+	6600 3300 6600 3200
+Wire Wire Line
+	6600 3200 7450 3200
+Wire Wire Line
+	7450 3200 7450 2900
+$Comp
+L GND #PWR01
+U 1 1 59AFC731
+P 5250 2000
+F 0 "#PWR01" H 5250 1750 50  0001 C CNN
+F 1 "GND" H 5250 1850 50  0000 C CNN
+F 2 "" H 5250 2000 50  0000 C CNN
+F 3 "" H 5250 2000 50  0000 C CNN
+	1    5250 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 2000 6000 2200
+Wire Wire Line
+	5800 2000 5800 2300
+Wire Wire Line
+	5800 2300 5550 2300
+Wire Wire Line
+	5700 2200 5700 2000
+Wire Wire Line
+	5250 2000 5600 2000
+$Comp
+L GND #PWR02
+U 1 1 59AFC991
+P 7250 2000
+F 0 "#PWR02" H 7250 1750 50  0001 C CNN
+F 1 "GND" H 7250 1850 50  0000 C CNN
+F 2 "" H 7250 2000 50  0000 C CNN
+F 3 "" H 7250 2000 50  0000 C CNN
+	1    7250 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR03
+U 1 1 59AFC9BB
+P 7050 3400
+F 0 "#PWR03" H 7050 3150 50  0001 C CNN
+F 1 "GND" H 7050 3250 50  0000 C CNN
+F 2 "" H 7050 3400 50  0000 C CNN
+F 3 "" H 7050 3400 50  0000 C CNN
+	1    7050 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 2000 7250 2000
+Wire Wire Line
+	6700 3300 7050 3300
+Wire Wire Line
+	7050 3300 7050 3400
+$EndSCHEMATC
