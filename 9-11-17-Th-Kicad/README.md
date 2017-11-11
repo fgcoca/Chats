@@ -1,6 +1,6 @@
 ## Título
 
-Charla sobre diseño de PCBs con [Kicad](http://kicad-pcb.org/), el software libre desarrollado en el MIT que está de moda.
+Charla sobre diseño de PCBs con [Kicad](http://kicad-pcb.org/), el software libre que está de moda.
 
 Ha resultado una bonita experiencia dado el nivel de los asistentes.
 
