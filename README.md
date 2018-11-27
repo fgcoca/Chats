@@ -14,7 +14,7 @@ Este repositorio se dedica a compartir la información utilizada en las charlas,
 
 Federico Coca Caba:
 
-https://github.com/fgcoca  - https://github.com/AlhambraMakers
+https://github.com/fgcoca  - https://github.com/clubroboticagranada
 
 
 ## **License**
