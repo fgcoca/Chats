@@ -1,4 +1,4 @@
-# Jedi Collection
+# First National Techology Congress Collection
 
 [![Icestudio](https://img.shields.io/badge/collection-icestudio-blue.svg)](https://github.com/FPGAwars/icestudio)
 ![Version](https://img.shields.io/badge/version-v1.1.0-orange.svg)
