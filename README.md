@@ -4,6 +4,8 @@ Este repositorio se dedica a compartir la información utilizada en las charlas,
 
 ## En orden cronológico inverso son:
 
+* [Introducción a las FPGAs libres. I Congreso Nacional de Tecnologa: Sábado 2/2/19](https://github.com/fgcoca/Chats/tree/master/9-2-19-Ponencia-FPGAs-Congreso-Tecnologia-Malaga)
+
 * [Diseño e impresión 3D: Martes 27/11/18, 15/01/19 y 22/01/19](https://github.com/fgcoca/Chats/tree/master/27-11-18-Materiales-Taller-3D)
 
 * [Bugbot: Viernes 10 de noviembre de 2017](https://github.com/fgcoca/Chats/tree/master/10-11-17-Fr-Bugbot "Viernes 10 de noviembre de 2017 en el CEIP Sierra Nevada")
