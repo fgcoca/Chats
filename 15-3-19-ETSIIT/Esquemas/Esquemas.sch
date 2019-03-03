@@ -1,0 +1,140 @@
+EESchema Schematic File Version 4
+LIBS:Esquemas-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text GLabel 1600 1000 0    100  Input ~ 0
+Pin-FPGA
+$Comp
+L Esquemas-rescue:LED-RESCUE-Esquemas D?
+U 1 1 5A848450
+P 2000 1000
+F 0 "D?" H 2000 1100 50  0001 C CNN
+F 1 "LED" H 2000 900 50  0000 C CNN
+F 2 "" H 2000 1000 50  0000 C CNN
+F 3 "" H 2000 1000 50  0000 C CNN
+	1    2000 1000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Esquemas-rescue:R R?
+U 1 1 5A848536
+P 2500 1000
+F 0 "R?" V 2580 1000 50  0001 C CNN
+F 1 "R" V 2400 1000 50  0000 C CNN
+F 2 "" V 2430 1000 50  0000 C CNN
+F 3 "" H 2500 1000 50  0000 C CNN
+	1    2500 1000
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5A84855D
+P 2750 1150
+F 0 "#PWR?" H 2750 900 50  0001 C CNN
+F 1 "GND" H 2750 1000 50  0000 C CNN
+F 2 "" H 2750 1150 50  0000 C CNN
+F 3 "" H 2750 1150 50  0000 C CNN
+	1    2750 1150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 1000 1800 1000
+Wire Wire Line
+	2200 1000 2350 1000
+Wire Wire Line
+	2650 1000 2750 1000
+Wire Wire Line
+	2750 1000 2750 1150
+$Comp
+L Esquemas-rescue:Q_NPN_ECB Q?
+U 1 1 5A896AB7
+P 2200 2900
+F 0 "Q?" H 2500 2950 50  0001 R CNN
+F 1 "BC635" H 2650 2900 50  0000 R CNN
+F 2 "" H 2400 3000 50  0000 C CNN
+F 3 "" H 2200 2900 50  0000 C CNN
+	1    2200 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Esquemas-rescue:LED-RESCUE-Esquemas D?
+U 1 1 5A896BAB
+P 2300 2450
+F 0 "D?" H 2300 2550 50  0001 C CNN
+F 1 "LED" H 2350 2350 50  0000 C CNN
+F 2 "" H 2300 2450 50  0000 C CNN
+F 3 "" H 2300 2450 50  0000 C CNN
+	1    2300 2450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Esquemas-rescue:R R?
+U 1 1 5A896BB1
+P 2300 2050
+F 0 "R?" V 2380 2050 50  0001 C CNN
+F 1 "220R" V 2200 2050 50  0000 C CNN
+F 2 "" V 2230 2050 50  0000 C CNN
+F 3 "" H 2300 2050 50  0000 C CNN
+	1    2300 2050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2300 2650 2300 2700
+$Comp
+L Esquemas-rescue:R R?
+U 1 1 5A896BDC
+P 1800 2900
+F 0 "R?" V 1880 2900 50  0001 C CNN
+F 1 "2k2" V 1700 2900 50  0000 C CNN
+F 2 "" V 1730 2900 50  0000 C CNN
+F 3 "" H 1800 2900 50  0000 C CNN
+	1    1800 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5A896BF0
+P 2300 3200
+F 0 "#PWR?" H 2300 2950 50  0001 C CNN
+F 1 "GND" H 2300 3050 50  0000 C CNN
+F 2 "" H 2300 3200 50  0000 C CNN
+F 3 "" H 2300 3200 50  0000 C CNN
+	1    2300 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 3100 2300 3200
+Text GLabel 1550 2900 0    100  Input ~ 0
+Pin-FPGA
+Wire Wire Line
+	1950 2900 2000 2900
+Wire Wire Line
+	1550 2900 1650 2900
+Wire Wire Line
+	2300 2200 2300 2250
+$Comp
+L power:VCC #PWR?
+U 1 1 5C33AD53
+P 2300 1700
+F 0 "#PWR?" H 2300 1550 50  0001 C CNN
+F 1 "VCC" H 2317 1873 50  0000 C CNN
+F 2 "" H 2300 1700 50  0001 C CNN
+F 3 "" H 2300 1700 50  0001 C CNN
+	1    2300 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 1700 2300 1900
+$EndSCHEMATC
