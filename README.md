@@ -4,6 +4,8 @@ Este repositorio se dedica a compartir la información utilizada en las charlas,
 
 ## En orden cronológico inverso son:
 
+* [Introducción a las FPGAs libres. Taller organizado por el Club de Robótica Granada en la OAL de Albolote, su actual sede: Jueves 4/4/19](https://github.com/fgcoca/Chats/tree/master/4-4-19-Club-robotica-granada)
+
 * [Introducción a las FPGAs libres. Taller organizado por la OSL de la UGR en ETSIIT: Viernes 15/32/19](https://github.com/fgcoca/Chats/tree/master/15-3-19-ETSIIT)
 
 * [Introducción a las FPGAs libres. I Congreso Nacional de Tecnologa: Sábado 2/2/19](https://github.com/fgcoca/Chats/tree/master/9-2-19-Ponencia-FPGAs-Congreso-Tecnologia-Malaga)
