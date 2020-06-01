@@ -4,7 +4,7 @@ Este repositorio se dedica a compartir la información utilizada en las charlas,
 
 ## En orden cronológico inverso son:
 
-* [Viernes 5/6/20. 
+* [Viernes 5/6/20. ](https://github.com/fgcoca/Chats/tree/master/05-06-20-DIY-bio-meeting)
 
 * [Jueves 19/11/19. Programando EduBasica con ArduinoBlocks](https://github.com/fgcoca/Chats/tree/master/21-11-19-Arduinoblocks)
 
