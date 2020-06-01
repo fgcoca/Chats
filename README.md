@@ -4,6 +4,8 @@ Este repositorio se dedica a compartir la información utilizada en las charlas,
 
 ## En orden cronológico inverso son:
 
+* [Viernes 5/6/20. 
+
 * [Jueves 19/11/19. Programando EduBasica con ArduinoBlocks](https://github.com/fgcoca/Chats/tree/master/21-11-19-Arduinoblocks)
 
 * [Introducción a las FPGAs libres. Taller organizado por el Club de Robótica Granada en la OAL de Albolote, su actual sede: Jueves 4/4/19](https://github.com/fgcoca/Chats/tree/master/4-4-19-Club-robotica-granada)
